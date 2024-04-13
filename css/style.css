@@ -5,6 +5,9 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 :root {
+  --green #6aa84f;
+  --green_dark #315720;
+  --blue_main 3e64ff;
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -8402,7 +8405,7 @@ h1, h2, h3, h4, h5,
     content: '';
     opacity: .1;
     width: 50%;
-    background: #3e64ff; }
+    background: #bf9000; }
   .hero-wrap .text {
     width: 100%; }
 
@@ -8410,7 +8413,7 @@ h1, h2, h3, h4, h5,
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 800;
-  color: #3e64ff;
+  color: #315720;
   letter-spacing: 4px; }
 
 .slider-text h1 {
@@ -8423,7 +8426,7 @@ h1, h2, h3, h4, h5,
 .slider-text h2 {
   font-weight: 800; }
   .slider-text h2 span {
-    color: #3e64ff;
+    color: #315720;
     text-decoration: underline; }
 
 .slider-text p {
@@ -8701,7 +8704,7 @@ h1, h2, h3, h4, h5,
     font-weight: 800;
     font-size: 30px;
     margin-bottom: 30px;
-    color: #3e64ff; }
+    color: #6aa84f; }
 
 .resume-wrap {
   width: 100%;
@@ -8711,7 +8714,7 @@ h1, h2, h3, h4, h5,
   .resume-wrap .icon {
     width: 50px;
     height: 50px;
-    background: #3e64ff;
+    background: #6aa84f; //
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -8725,7 +8728,7 @@ h1, h2, h3, h4, h5,
     font-weight: 700;
     font-size: 16px;
     color: rgba(0, 0, 0, 0.6);
-    color: #3e64ff; }
+    color: #6aa84f; }
   .resume-wrap h2 {
     font-size: 24px;
     font-weight: 700; }
@@ -9686,3 +9689,4 @@ textarea.form-control {
     max-width: 100%;
   }
 }
+
