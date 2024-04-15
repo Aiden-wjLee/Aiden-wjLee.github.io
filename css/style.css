@@ -3494,9 +3494,9 @@ input[type="button"].btn-block {
     flex-direction: row;
     justify-content: center; /* Center icons for small screens */
     position: absolute;
-    left: 65%; /* Center relative to the parent */
+    left: 60%; /* Center relative to the parent */
+    top: 17px;
     transform: translateX(-50%); /* Offset by half the width of the icons to truly center */
-    top: 13px;
     align-items: center;
   }
 
@@ -3516,7 +3516,7 @@ input[type="button"].btn-block {
   border-radius: 50%;
   background-color: #00274c; 
   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-  margin: 0 10px; 
+  margin: 0 5px; 
 }
 
 
@@ -8319,14 +8319,16 @@ h1, h2, h3, h4, h5,
   @media (max-width: 991.98px) {
     .ftco-navbar-light .navbar-nav > .nav-item.active > a {
       color: #3e64ff; } }
-  .ftco-navbar-light .navbar-toggler {
-    border: none;
-    color: rgba(255, 255, 255, 0.5) !important;
-    cursor: pointer;
-    padding-right: 0;
-    text-transform: uppercase;
-    font-size: 16px;
-    letter-spacing: .1em; }
+    .ftco-navbar-light .navbar-toggler {
+        line-height: 50px;
+        border: none;
+        color: rgba(255, 255, 255, 0.8);
+        cursor: pointer;
+        padding-right: 0;
+        text-transform: uppercase;
+        font-size: 20px;
+        letter-spacing: .1em;
+    }
     .ftco-navbar-light .navbar-toggler:hover, .ftco-navbar-light .navbar-toggler:focus {
       text-decoration: none;
       color: #3e64ff;
