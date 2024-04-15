@@ -3506,6 +3506,13 @@ input[type="button"].btn-block {
     top: 8px;
   }
 }
+@media (max-width: 400px) {
+  .navbar-nav.ml-auto.social-icons a[href*="github.com"],
+  .navbar-nav.ml-auto.social-icons a[href*="linkedin.com"] {
+    display: none; /* Hide GitHub and LinkedIn icons */
+  }
+}
+
 
 .social-icons a {
   display: inline-flex;
