@@ -104,3 +104,13 @@ h2 {
 span.highlight {
   background-color: #ffffd0;
 }
+
+@media screen and (max-width: 600px) {
+  .one {
+    width: 140px;
+  }
+  .one img,
+  .one video {
+    width: 140px;
+  }
+}
