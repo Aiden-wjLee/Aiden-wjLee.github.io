@@ -82,18 +82,18 @@ h2 {
 }
 
 .one {
-  width: 160px;
+  width: 220px;
   height: auto;
   position: relative;
 }
 
 .one img {
-  width: 160px;
+  width: 220px;
   height: auto;
 }
 
 .two {
-  width: 160px;
+  width: 220px;
   height: 160px;
   position: absolute;
   transition: opacity .2s ease-in-out;
